@@ -8,45 +8,68 @@ html {
 
 body {
   background-color: #c9b5ab;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Serif", sans-serif;
+  line-height: 1.5;
+  font-weight: normal;
+  text-decoration: none;
+  color: #222;
 }
 
 header {
   color: #3f1622;
-  font-weight: 700;
+  font-weight: bold;
 }
 
-nav ul li{
-  list-style-type: none;
-  color: #8f2440;
-  font-weight: 700;
-  font-size: 1.5em;
+h1 {
+  font-size: 1.5rem;
+}
 
+nav ol li {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+  text-decoration: underline;
 }
 
 figcaption {
   font-style: italic;
   text-align: center;
-  font-size: 1.25rem;
-}
-
-.bold {
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-
-p {
   font-size: 1.125rem;
 }
 
+.bold {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
 .pratt {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-style: italic;
   text-align: center;
 }
 
+strong {
+  font-weight: normal;
+}
+
+b {
+  font-weight: normal;
+}
+
 h2 {
-  font-size: 1.5rem;
   color: #3f1622;
 }
 
@@ -54,9 +77,10 @@ dt {
   font-weight: bold;
   font-size: 1.125rem;
 }
- img {
-   width: 100%;
- }
+
+img {
+  width: 100%;
+}
 
 ol {
   list-style-type: lower-greek;
@@ -64,4 +88,8 @@ ol {
 
 .circle {
   list-style-type: circle;
+}
+
+h1, h2, a {
+  font-family: "PT Sans", sans-serif;
 }
