@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #c9b5ab;
+  font-family: 'PT Sans', sans-serif;
+}
+
+header {
+  color: #3f1622;
+  font-weight: 700;
+}
+
+nav ul li{
+  list-style-type: none;
+  color: #8f2440;
+  font-weight: 700;
+  font-size: 1.5em;
+
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+.pratt {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+ img {
+   width: 100%;
+ }
+
+ol {
+  list-style-type: lower-greek;
+}
+
+.circle {
+  list-style-type: circle;
+}
